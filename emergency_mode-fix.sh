@@ -12,6 +12,8 @@ cd e2fsprogs-1.43.1
 
 make
 
+sleep 5
+
 cd e2fsck/
 
 sudo ./e2fsck -y /dev/sda7/
